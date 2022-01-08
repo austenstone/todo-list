@@ -1,15 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import List from './list/List';
+import List, { ToDoItem } from './list/List';
+
+const items: ToDoItem[] = [
+  { name: 'Grocery' },
+  { name: 'Grocery' },
+  { name: 'Grocery' },
+  { name: 'Grocery' }
+];
 
 function App() {
-  items: ToDoItem[] = [
-    { name: 'Grocery' },
-    { name: 'Grocery' },
-    { name: 'Grocery' },
-    { name: 'Grocery' }
-  ];
 
   return (
     <div className="App">
