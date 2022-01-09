@@ -1,0 +1,38 @@
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+.todo-item .name {
+    width: 100%;
+}
+.todo-item p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.flex-fill {
+    flex: 1;
+}
+
+.completed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.completed input {
+    width: 20px;
+    height: 20px;
+}
+
+.content {
+    padding: 15px;
+}
